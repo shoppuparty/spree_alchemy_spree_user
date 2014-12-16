@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_alchemy_spree_user'
   s.version     = '2.4.2'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Use the Spree::User model created by spree_auth_devise with Alchemy CMS.'
+  s.description = s.summary
   s.required_ruby_version = '>= 1.9.3'
 
   s.authors = ['Shoppu', 'Thomas Mulloy']
