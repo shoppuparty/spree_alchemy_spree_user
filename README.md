@@ -1,7 +1,7 @@
 SpreeAlchemySpreeUser
 =====================
 
-Introduction goes here.
+Use [Spree Auth (Devise)](https://github.com/spree/spree_auth_devise) `Spree::User` with [Alchemy CMS](https://github.com/magiclabs/alchemy_cms).
 
 Installation
 ------------
@@ -9,7 +9,7 @@ Installation
 Add spree_alchemy_spree_user to your Gemfile:
 
 ```ruby
-gem 'spree_alchemy_spree_user'
+gem 'spree_alchemy_spree_user', github: 'shoppuparty/spree_alchemy_spree_user', branch: 'master'
 ```
 
 Bundle your dependencies and run the installation generator:
