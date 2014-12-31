@@ -4,16 +4,15 @@ Alchemy.login_path = '/login'
 Alchemy.logout_path = '/logout'
 
 
-module SpreeAlchemySpreeUser
-  class Ability
-    include CanCan::Ability
+# module SpreeAlchemySpreeUser
+#   class Ability
+#     include CanCan::Ability
 
-    def initialize(user)
-      return if user.nil?
-      pp user
-    end
+#     def initialize(user)
+#       return if user.nil?
+#     end
 
-  end
-end
+#   end
+# end
 
-Alchemy.register_ability SpreeAlchemySpreeUser::Ability
+# Alchemy.register_ability SpreeAlchemySpreeUser::Ability
