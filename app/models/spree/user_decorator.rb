@@ -5,7 +5,7 @@ module Spree
       if has_spree_role?('admin')
         %w(admin)
       else
-        []
+        %w(member)
       end
     end
 
